@@ -32,6 +32,11 @@ jobs:
           # meetlify clean
           # meetlify setup
           meetlify make
+      
+      - name: Prettify code
+        run: |
+          sudo apt install tidy
+          find output -name '*.html' -type f -print -exec tidy -i '{}' \;
 
       - name: Deploy Website/Documents
         uses: peaceiris/actions-gh-pages@v4
