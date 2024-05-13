@@ -36,7 +36,7 @@ jobs:
       - name: Prettify code
         run: |
           sudo apt install tidy
-          find output -name '*.html' -type f -print -exec tidy -i '{}' \;
+          find ./output -name '*.html' -type f -print -exec tidy -i '{}' \;
 
       - name: Deploy Website/Documents
         uses: peaceiris/actions-gh-pages@v4
