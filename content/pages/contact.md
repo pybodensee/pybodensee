@@ -65,21 +65,18 @@ description: Contact Us
         <!-- Contact cards-->
         <div class="gx-5">
             <div class="col">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                        class="bi bi-chat-dots"></i>
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-chat-dots"></i>
                 </div>
                 <div class="h5 mb-2">Chat with us</div>
                 <p class="text-muted mb-4">Visit us in one of our meetup for chit-chat.</p>
             </div>
             <div class="col">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                        class="bi bi-people"></i></div>
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
                 <div class="h5">Ask the community</div>
                 <p class="text-muted mb-4">Join our community and explore best of Python</p>
             </div>
             <div class="col">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
-                        class="bi bi-question-circle"></i>
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-question-circle"></i>
                 </div>
                 <div class="h5">Projects</div>
                 <p class="text-muted mb-4">Learn more about our GitHub projects.
