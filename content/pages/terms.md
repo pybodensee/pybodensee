@@ -1,6 +1,6 @@
 ---
 title: Terms and Conditions
-date:  2024-05-21
+date:  2024-05-13
 author:  Faisal Shahzad
 slug:  terms
 status: Draft

@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date:  2024-05-21
+date:  2024-05-13
 author:  Faisal Shahzad
 slug:  privacy
 status: Draft
@@ -11,7 +11,7 @@ description: Privacy
 
 ## Who we are
 
-Our website address is: https://pybodensee.com. You can reach us ```pybodensee at gmail.com``
+Our website address is: https://pybodensee.com. You can reach us ``pybodensee at gmail.com``
 
 ## Comments
 
