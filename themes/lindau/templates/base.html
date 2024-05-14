@@ -4,8 +4,42 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     {% block main_header %}
     {% endblock main_header %}
+    <meta content="{{meta.name}}" property="og:site_name" />
+    <meta name="keywords" content="Python User Group, Bodensee, Python Stammtisch">
+    <meta content="en_US" property="og:locale" />
+    <meta content="website" property="og:type" />
+    <meta name="apple-mobile-web-app-title" content="{{meta.name}}" />
+    <meta name="application-name" content="{{meta.name}}" />
+    <meta property="og:image" content="{{meta.url}}/static/assets/logo.png" />
+    <meta content="282" property="og:image:width" />
+    <meta content="104" property="og:image:height" />
+    <meta content="image/png" property="og:image:type" />
+
+    <link rel="icon" type="image/x-icon" href="{{meta.url}}/favicon.icon" />
+    <link rel="shortcut icon" href="{{meta.url}}/favicon.ico" />
+    <meta content="{{meta.url}}/favicon.ico" name="msapplication-TileImage">
+
+    <meta name="generator" content="meetlify" />
+    <meta name="language" content="english" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="distribution" content="web" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="next-font-preconnect" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="{{meta.URL}}/static/assets/favicon.png" />
     <!-- Bootstrap icons-->
@@ -14,7 +48,6 @@
     <link href="{{meta.URL}}/static/css/styles.css" rel="stylesheet" />
     <!-- Cookies Alert-->
     <link href="{{meta.URL}}/static/css/cookiealert.css" rel="stylesheet">
-
 </head>
 
 <body class="d-flex flex-column h-100">
