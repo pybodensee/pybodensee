@@ -2,7 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for sitemap in sitemaps %}
 	<sitemap>
-        <loc>{{meta.url}}/sitemap-{{sitemap.name}}.xml</loc>
+        <loc>{{meta.URL}}/sitemap-{{sitemap.name}}.xml</loc>
         <lastmod>{{ sitemap.modifieddate.strftime('%Y-%m-%d %H:%M +00:00') }}</lastmod>
 	</sitemap>
     {% endfor %}
