@@ -2,13 +2,13 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
 	<sitemap>
-        <loc>/sitemap-meetups.xml</loc>
-        <lastmod>2024-05-20 22:20 +00:00</lastmod>
+        <loc>https://pybodensee.com/sitemap-meetups.xml</loc>
+        <lastmod>2024-05-20 22:22 +00:00</lastmod>
 	</sitemap>
     
 	<sitemap>
-        <loc>/sitemap-pages.xml</loc>
-        <lastmod>2024-05-20 22:20 +00:00</lastmod>
+        <loc>https://pybodensee.com/sitemap-pages.xml</loc>
+        <lastmod>2024-05-20 22:22 +00:00</lastmod>
 	</sitemap>
     
 </sitemapindex>
