@@ -29,8 +29,9 @@
                     </p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                         <a class="btn btn-primary btn-lg px-4 me-sm-3"
-                            href="{{meta.URL}}/meetups/{{meetups[0].slug}}/">More Details</a>
-                        <a class="btn btn-outline-light btn-lg px-4" href="{{meta.URL}}/meetups/">Future Meetups</a>
+                            href="{{meta.URL}}/{{meta.folders.meetups}}/{{meetups[0].slug}}/">More Details</a>
+                        <a class="btn btn-outline-light btn-lg px-4"
+                            href="{{meta.URL}}/{{meta.folders.meetups}}/">Future Meetups</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +72,7 @@
                     <div class="card-body p-4">
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">Meetup</div>
                         <a class="text-decoration-none link-dark stretched-link"
-                            href="{{meta.URL}}/meetups/{{meetup.slug}}/">
+                            href="{{meta.URL}}/{{meta.folders.meetups}}/{{meetup.slug}}/">
                             <h5 class="card-title mb-3"> {{meetup.title}}
                             </h5>
                         </a>
@@ -96,8 +97,58 @@
             {% endfor%}
         </div>
         <div class="text-end mb-5 mb-xl-0">
-            <a class="text-decoration-none" href="{{meta.URL}}/meetups/">
+            <a class="text-decoration-none" href="{{meta.URL}}/{{meta.folders.meetups}}/">
                 Older Meetups
+                <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-white" id="posts">
+    <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-left">
+            <div class="col-lg-12">
+                <div class="text-left">
+                    <h2 class="fw-bolder  mb-4">Blog Posts</h2>
+                    <p class="mb-5">Here is the list of recently published posts by
+                        PyBodensee. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-5">
+            {% for post in posts%}
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="{{meta.URL}}/images/{{post.featureimage}}"
+                        alt="Feature Image for post">
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Post</div>
+                        <a class="text-decoration-none link-dark stretched-link"
+                            href="{{meta.URL}}/{{meta.folders.posts}}/{{post.slug}}/">
+                            <h5 class="card-title mb-3"> {{post.title}}
+                            </h5>
+                        </a>
+                        <p class="card-text mb-0">Agenda: {{post.description}}</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="fw-bold">Last Updated on {{post.date}}
+                                    </div>
+                                    <div class="text-muted">Author: {{post.author}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor%}
+        </div>
+        <div class="text-end mb-5 mb-xl-0">
+            <a class="text-decoration-none" href="{{meta.URL}}/{{meta.folders.posts}}/">
+                Older Posts
                 <i class="bi bi-arrow-right"></i>
             </a>
         </div>

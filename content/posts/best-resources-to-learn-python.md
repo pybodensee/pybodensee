@@ -1,15 +1,15 @@
 ---
-title: Best Python Resources to learn Python
+title: Best Resources to learn Python Programming Language
 date:  2024-05-22
 author:  Faisal Shahzad
-slug: develop-helpful-projects-with-python
 status: published
 tags: begginers, learning
+admonition: incomplete
 featureimage: fatureimage.png
-description: In this post you will learn on how to start programming with Python Programming Language, what are common pitfals and how to avoid them.
+description: Following are my top four resources to learn Python, and can highly recommend them to someone starting up with Python.
 ---
 
-Following are my top three resources to learn Python, and can highly recommend them to someone starting up with Python.
+Following are my top four resources to learn Python, and can highly recommend them to someone starting up with Python.
 
 If you are stuck in any situation and need help regarding your Python Problems then the following are the best places to look for help.
 

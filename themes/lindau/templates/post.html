@@ -3,11 +3,11 @@
 {% block main_header %}
 <meta name="description" content="{{front.description}}" />
 <meta name="author" content="{{front.author}}" />
-<link href="{{meta.URL}}/{{meta.folders.meetups}}/{{front.slug}}/" rel="canonical" />
+<link href="{{meta.URL}}/{{meta.folders.posts}}/{{front.slug}}/" rel="canonical" />
 <title>{{front.title}}</title>
 <meta content="{{front.title}}" property="og:title" />
 <meta content="{{front.description}}" property="og:description" />
-<meta content="{{meta.URL}}/{{meta.folders.meetups}}/{{front.slug}}/" property="og:url" />
+<meta content="{{meta.URL}}/{{meta.folders.posts}}/{{front.slug}}/" property="og:url" />
 {% endblock main_header %}
 
 
@@ -23,38 +23,31 @@
                     <header class="mb-4">
                         <!-- Post title-->
                         <h1 class="fw-bolder mb-1">{{front.title}}</h1>
+                        <div class="text-muted fst-italic mt-2">Published on {{front.date}} by
+                            {{meta.author}}
+                        </div>
                         <!-- Post categories-->
                         <a class="badge bg-secondary text-decoration-none link-light mt-3" href="/">Python</a>
-                        <a class="badge bg-secondary text-decoration-none link-light mt-3" href="/">Meetup</a>
+                        <a class="badge bg-secondary text-decoration-none link-light mt-3" href="/">Blog</a>
                     </header>
                     <section class="mb-5">
+                        <div class="admonition {{admonition.type}}">
+                            <p class="admonition-title text-white fw-bolder">{{admonition.title}}</p>
+                            <p>{{admonition.message}}</p>
+                        </div>
+
                         {{ content }}
                     </section>
                 </article>
             </div>
             <div class="col-lg-4">
                 <div class="py-2 sidebar">
-                    <div class="d-flex align-items-center mt-lg-4 mb-4">
-                        <img class="img-fluid rounded-circle" src="{{meta.URL}}/static/assets/author.png" width="60"
-                            height="60" alt="{{meta.author}} Image" />
-                        <div class="ms-3">
-                            <h4 class="fw-bold">{{front.author}} </h4>
-                            <div class="text-muted">Organizer</div>
-                        </div>
-                    </div>
                     <div class="card border-0 bg-light mt-xl-3">
                         <div class="card-body p-4 py-lg-4">
-                            <div class="text-muted mb-2">Meetup Date: <div class="fw-bold">{{front.date}}</div>
+                            <div class="h5 fw-bolder px-2">Table of Contents</div>
+                            <div class="fw-bold mt-2">
+                                {{front.toc}}
                             </div>
-                            <div class="text-muted mb-2">Meetup Location: <div class="fw-bold">{{front.address}}</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card border-0 bg-light mt-xl-3">
-                        <div class="card-body p-4 py-lg-4">
-                            <img class="img-fluid rounded mb-5 mb-lg-0" src="{{meta.URL}}/images/{{front.featureimage}}"
-                                alt="{{meta.author}} image">
                         </div>
                     </div>
 

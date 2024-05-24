@@ -8,6 +8,8 @@
     "email": "pybodensee at gmail dot com",
     "description": "We are a Python User Group in the Bodensee Region. The aim of this group is to bring Python developers, enthusiasts, and Pythonistas from the Bodensee region on a single platform.",
     "sitemap": true,
+    "blogs": true,
+    "meetups": true,
     "feeds": true,
     "robots": true,
     "logo": "logo.png",
@@ -18,10 +20,12 @@
         "output": "output",
         "content": "content",
         "meetups": "meetups",
-        "pages": "pages"
+        "pages": "pages",
+        "posts": "posts"
     },
     "menu": {
         "header": {
+            "Posts": "posts",
             "Meetups": "meetups",
             "GitHub": "https://github.com/pybodensee"
         },

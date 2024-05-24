@@ -2,17 +2,17 @@
 title: Collaborative Python Learning
 date:  2024-05-22
 author:  Faisal Shahzad
-slug: collaborative-python-learning
 status: published
 tags: begginers, learning
+admonition: incomplete
 featureimage: fatureimage.png
-description: In this post you will learn on how to start programming with Python Programming Language, what are common pitfals and how to avoid them.
+description: Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
 ---
 
 
 Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
 
-### Surround Yourself With Others Who Are Learning
+### Join Other Python Learners
 
 This is a piece of great advice for those who are starting. If you are beginning your Python learning journey then it is recommended to surround yourself with other people who are also new to learning Python. 
 
