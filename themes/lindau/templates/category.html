@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block main_header %}
+<meta name="description" content="{{category.description}}" />
+<meta name="author" content="{{category.author}}" />
+<link href="{{meta.URL}}/{{meta.folders.categorys}}/{{category.slug}}/" rel="canonical" />
+<title>{{category.title}}</title>
+<meta content="{{category.title}}" property="og:title" />
+<meta content="{{category.description}}" property="og:description" />
+<meta content="{{meta.URL}}/{{meta.folders.categorys}}/{{category.slug}}/" property="og:url" />
+{% endblock main_header %}
+
+
+{% block main_content %}
+<!-- Category Content-->
+<section class="py-5">
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <div class="col-lg-8">
+                <!-- Category content-->
+                <article>
+                    <!-- Category header-->
+                    <header class="mb-4">
+                        <!-- Category title-->
+                        <h1 class="fw-bolder mb-1">{{category.title}}</h1>
+                    </header>
+                    <section class="mb-5">
+                        {{ category.content }}
+                    </section>
+                </article>
+            </div>
+            <div class="col-lg-4">
+                <div class="py-2 sidebar">
+                    <div class="card border-0 bg-light mt-xl-3">
+                        <div class="card-body p-4 py-lg-4">
+                            <img class="img-fluid rounded mb-5 mb-lg-0"
+                                src="{{meta.URL}}/images/{{category.feature_image}}" alt="{{meta.author}} image">
+                        </div>
+                    </div>
+
+                    <div class="card border-0 bg-light mt-xl-3">
+                        <div class="card-body p-4 py-lg-4">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <div class="h6 fw-bolder">Have more questions?</div>
+                                    <p class="text-muted mb-4">
+                                        Check out our <a href=" {{meta.URL}}/contact/">Contact us</a> page to get in
+                                        touch or send us an email at <br><code>pybodensee at gmail dot com</code>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-4">Similar Posts in {{category.title}} Category </h2>
+        <div class="row gx-5">
+            {% for post in posts%}
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                    <img class="card-img-top" src="{{meta.URL}}/images/{{post.feature_image}}"
+                        alt="Feautre Image for post">
+                    <div class="card-body p-4">
+                        <div class="badge bg-primary bg-gradient rounded-pill mb-2">Post</div>
+                        <a class="text-decoration-none link-dark stretched-link"
+                            href="{{meta.URL}}/{{meta.folders.posts}}/{{post.slug}}/">
+                            <h5 class="card-title mb-3">{{post.title}}
+                            </h5>
+                        </a>
+                        <p class="card-text mb-0">{{post.description}}</p>
+                    </div>
+                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="small">
+                                    <div class="fw-bold">Last Updated on {{post.create_date.strftime('%Y-%m-%d')}}
+                                    </div>
+                                    <div class="text-muted">Author: {{post.author}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor%}
+        </div>
+    </div>
+</section>
+{% endblock main_content %}

@@ -1,6 +1,6 @@
 {
     "name": "PyBodensee",
-    "URL": "https://pybodensee.com",
+    "URL": "",
     "language": "en",
     "theme": "lindau",
     "title": "Bodensee Python User Group",
@@ -35,7 +35,8 @@
         "content": "content",
         "meetups": "meetups",
         "pages": "pages",
-        "posts": "posts"
+        "posts": "posts",
+        "categories": "categories"
     },
     "about_us": [
         "Welcome to PyBodensee, a local community of dedicated Python Users in the Bodensee (Lake Constance) region!",

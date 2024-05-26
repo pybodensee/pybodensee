@@ -27,15 +27,15 @@
                             by {{meta.author}}
                         </div>
                         <!-- Post categories-->
-                        {% for tag in post.tags %}
+                        {% for category in post.categories %}
                         <a class="badge bg-secondary text-decoration-none link-light mt-3"
-                            href="/">{{tag|trim|capitalize}}</a>
+                            href="/{{meta.folders.categories}}/{{category|trim|lower}}/">{{category|trim|capitalize}}</a>
                         {% endfor %}
                     </header>
                     <section class="mb-5">
                         {% if banner.name %}
                         <div class="admonition {{banner.type_}}">
-                            <p class="admonition-title text-white fw-bolder">{{banner.name}}</p>
+                            <p class="admonition-title text-white fw-bolder">{{banner.name|capitalize}}</p>
                             <p>{{banner.message}}</p>
                         </div>
                         {% endif %}

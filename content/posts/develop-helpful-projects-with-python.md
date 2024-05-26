@@ -3,7 +3,7 @@ title: Develop Helpful Projects With Python
 create_date:  2024-05-22::00:00
 author:  Faisal Shahzad
 status: published
-tags: begginers, learning, tips
+categories: beginners
 banner: incomplete
 feature_image: fatureimage.png
 description: Start step by step and develop a full-fledged application that will suit your needs.
