@@ -36,5 +36,11 @@
         "to": "/posts/develop-helpful-projects-with-python/",
         "status_code": 301,
         "force": true
+    },
+    {
+        "from": "/categories/meetups/",
+        "to": "/meetups/",
+        "status_code": 301,
+        "force": true
     }
 ]
