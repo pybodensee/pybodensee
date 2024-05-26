@@ -1,7 +1,7 @@
 [
     {
         "from": "/static/assets/logo.webp",
-        "to": "/home",
+        "to": "/static/assets/logo.png",
         "status_code": 301,
         "force": true
     },
