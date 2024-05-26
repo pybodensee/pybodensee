@@ -18,7 +18,8 @@
 {% macro category_card(meta, category) -%}
 <div class="col-lg-4 mb-5">
     <div class="card h-100 shadow border-0">
-        <img class="card-img-top" src="{{meta.URL}}/images/{{category.feature_image}}" alt="Feautre Image for category">
+        <img class="card-img-top" src="{{meta.URL}}/{{meta.folders.images}}/{{category.feature_image}}"
+            alt="Feautre Image for category">
         <div class="card-body p-4">
             <a class="text-decoration-none link-dark stretched-link"
                 href="{{meta.URL}}/{{meta.folders.categories}}/{{category.slug}}/">
@@ -49,7 +50,7 @@
             </div>
             <div class="col-lg-6 col-xl-7">
                 <div class="bg-featured-blog"
-                    style="background-image: url('{{meta.URL}}/images/{{active_item.feature_image}}')">
+                    style="background-image: url('{{meta.URL}}/{{meta.folders.images}}/{{active_item.feature_image}}')">
                 </div>
             </div>
         </div>
@@ -60,7 +61,8 @@
 {% macro item_card(meta, folder, meetup) -%}
 <div class="col-lg-4 mb-5">
     <div class="card h-100 shadow border-0">
-        <img class="card-img-top" src="{{meta.URL}}/images/{{meetup.feature_image}}" alt="Feature Image for Meetup">
+        <img class="card-img-top" src="{{meta.URL}}/{{meta.folders.images}}/{{meetup.feature_image}}"
+            alt="Feature Image for Meetup">
         <div class="card-body p-4">
             {% for category in meetup.categories %}
             <a class="badge bg-primary bg-gradient rounded-pill mb-2"
@@ -123,7 +125,7 @@
 {% macro meetup_map_card(meta, meetup) -%}
 <div class="card border-0 bg-light mt-xl-3">
     <div class="card-body p-4 py-lg-4">
-        <img class="img-fluid rounded mb-5 mb-lg-0" src="{{meta.URL}}/images/{{meetup.feature_image}}"
+        <img class="img-fluid rounded mb-5 mb-lg-0" src="{{meta.URL}}/{{meta.folders.images}}/{{meetup.feature_image}}"
             alt="{{meta.author}} image">
     </div>
 </div>
