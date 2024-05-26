@@ -1,13 +1,13 @@
 ---
-title: Mobile App Development in Python
-id: 3
-date:  2024-07-05
-author:  Faisal Shahzad
-slug: meetup-3-mobile-app-development-in-python
-status: planning
-featureimage: fatureimage.png
-address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
+title: Meetup # 3 Mobile App Development in Python
 description: In Second PyBodensee Meetup we will discuss about different Static Site Genrators in Python and how to build one by yourself.
+organizer:  Faisal Shahzad
+event_datetime: 2024-07-05::19:00
+slug: meetup-3-mobile-app-development-in-python
+feature_image: fatureimage.png
+address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
+add_to_sitemap: false
+status: planning
 ---
 
 ## Details

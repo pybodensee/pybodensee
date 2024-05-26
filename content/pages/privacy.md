@@ -1,10 +1,10 @@
 ---
 title: Privacy Policy
-date:  2024-05-13
+create_date:  2024-05-13::00:00
 author:  Faisal Shahzad
 slug:  privacy
-status: Draft
-featureimage: lindau.png
+status: published
+feature_image: lindau.png
 description: Privacy
 ---
 # Privacy Policy

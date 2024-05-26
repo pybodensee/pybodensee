@@ -1,0 +1,9 @@
+{
+    "*": {"allow": [], "disallow": []},
+    "sitemaps": [
+        "https://pybodensee.com/sitemap-index.xml",
+        "https://pybodensee.com/sitemap-meetups.xml",
+        "https://pybodensee.com/sitemap-pages.xml",
+        "https://pybodensee.com/sitemap-posts.xml"
+    ]
+}

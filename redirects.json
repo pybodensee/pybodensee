@@ -1,0 +1,28 @@
+[
+    {
+        "from": "/static/assets/logo.webp",
+        "to": "/home",
+        "status_code": 301,
+        "force": true
+    },
+    {"from": "/favicon.ico", "to": "/static/assets/favicon.png", "status_code": 301, "force": true},
+    {"from": "/favicon.icon", "to": "/static/assets/favicon.png", "status_code": 301, "force": true},
+    {
+        "from": "/meetups/meetup-1-establishment-of-pybodensee/",
+        "to": "/meetups/meetup-1-establishment-of-pybodensee-user-group/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/meetups/first-meetup/",
+        "to": "/meetups/meetup-1-establishment-of-pybodensee-user-group/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/.well-known/assetlinks.json",
+        "to": "/",
+        "status_code": 404,
+        "force": true
+    }
+]

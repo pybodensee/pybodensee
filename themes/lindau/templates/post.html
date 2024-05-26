@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
 {% block main_header %}
-<meta name="description" content="{{front.description}}" />
-<meta name="author" content="{{front.author}}" />
-<link href="{{meta.URL}}/{{meta.folders.posts}}/{{front.slug}}/" rel="canonical" />
-<title>{{front.title}}</title>
-<meta content="{{front.title}}" property="og:title" />
-<meta content="{{front.description}}" property="og:description" />
-<meta content="{{meta.URL}}/{{meta.folders.posts}}/{{front.slug}}/" property="og:url" />
+<meta name="description" content="{{post.description}}" />
+<meta name="author" content="{{post.author}}" />
+<link href="{{meta.URL}}/{{meta.folders.posts}}/{{post.slug}}/" rel="canonical" />
+<title>{{post.title}}</title>
+<meta content="{{post.title}}" property="og:title" />
+<meta content="{{post.description}}" property="og:description" />
+<meta content="{{meta.URL}}/{{meta.folders.posts}}/{{post.slug}}/" property="og:url" />
 {% endblock main_header %}
 
 
@@ -22,21 +22,24 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">{{front.title}}</h1>
-                        <div class="text-muted fst-italic mt-2">Published on {{front.date}} by
-                            {{meta.author}}
+                        <h1 class="fw-bolder mb-1">{{post.title}}</h1>
+                        <div class="text-muted fst-italic mt-2">Published on {{post.create_date.strftime('%Y-%m-%d')}}
+                            by {{meta.author}}
                         </div>
                         <!-- Post categories-->
-                        <a class="badge bg-secondary text-decoration-none link-light mt-3" href="/">Python</a>
-                        <a class="badge bg-secondary text-decoration-none link-light mt-3" href="/">Blog</a>
+                        {% for tag in post.tags %}
+                        <a class="badge bg-secondary text-decoration-none link-light mt-3"
+                            href="/">{{tag|trim|capitalize}}</a>
+                        {% endfor %}
                     </header>
                     <section class="mb-5">
-                        <div class="admonition {{admonition.type}}">
-                            <p class="admonition-title text-white fw-bolder">{{admonition.title}}</p>
-                            <p>{{admonition.message}}</p>
+                        {% if banner.name %}
+                        <div class="admonition {{banner.type_}}">
+                            <p class="admonition-title text-white fw-bolder">{{banner.name}}</p>
+                            <p>{{banner.message}}</p>
                         </div>
-
-                        {{ content }}
+                        {% endif %}
+                        {{ post.content }}
                     </section>
                 </article>
             </div>
@@ -46,7 +49,7 @@
                         <div class="card-body p-4 py-lg-4">
                             <div class="h5 fw-bolder px-2">Table of Contents</div>
                             <div class="fw-bold mt-2">
-                                {{front.toc}}
+                                {{post.toc}}
                             </div>
                         </div>
                     </div>

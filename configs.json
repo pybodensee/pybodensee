@@ -16,13 +16,6 @@
     "favicon": "favicon.png",
     "copyright": "Copyright © PyBodensee 2024",
     "home": "home",
-    "folders": {
-        "output": "output",
-        "content": "content",
-        "meetups": "meetups",
-        "pages": "pages",
-        "posts": "posts"
-    },
     "menu": {
         "header": {
             "Posts": "posts",
@@ -34,5 +27,26 @@
             "Terms": "terms",
             "Contact": "contact"
         }
-    }
+    },
+    "folders": {
+        "output": "output",
+        "themes": "themes",
+        "images": "images",
+        "content": "content",
+        "meetups": "meetups",
+        "pages": "pages",
+        "posts": "posts"
+    },
+    "about_us": [
+        "Welcome to PyBodensee, a local community of dedicated Python Users in the Bodensee (Lake Constance) region!",
+        "Whether you're a beginner looking to learn the basics or an experienced developer wanting to enhance your skills, then this is the group for you. Our meetups cover a range of topics, such as data science, web development, hardware development, and more.",
+        "Join us to network with like-minded individuals, attend informative talks and workshops, and stay up-to-date on the latest trends in the Python community."
+    ],
+    "banners": [
+        {
+            "name": "incomplete",
+            "type_": "hint",
+            "message": "This is work in progress. Please checkback later for an updated version of this post."
+        }
+    ]
 }

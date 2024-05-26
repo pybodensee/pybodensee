@@ -1,12 +1,12 @@
 ---
 title: Meetup # 2 Static Website Genrators in Python
-id: 2 
-date:  2024-06-07 @ 19:00
-author:  Faisal Shahzad
-status: published
-featureimage: wangen.png
-address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
 description: In Second PyBodensee Meetup we will discuss about different Static Website Genrators in Python and how to build one by yourself.
+organizer:  Faisal Shahzad
+event_datetime: 2024-06-07::19:00
+feature_image: wangen.png
+address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
+add_to_sitemap: true
+status: published
 ---
 
 ## Details

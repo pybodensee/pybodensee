@@ -1,12 +1,11 @@
 ---
 title: Meetup # 1 Establishment of PyBodensee User Group
-id: 1 
-date:  2024-05-15 @ 19:00
-author:  Faisal Shahzad
-status: done
-featureimage: wangen.png
-address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
 description: First Meetup of Python Users in Bodensee Region for establishment of PyBodensee. All Pythonistas in Bodensee Region are welcomme to Join!
+organizer:  Faisal Shahzad
+event_datetime: 2024-05-15::19:00
+feature_image: wangen.png
+address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
+status: done
 ---
 
 ### Details
