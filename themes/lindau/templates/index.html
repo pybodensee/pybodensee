@@ -68,7 +68,7 @@
         </div>
         <div class="row gx-5">
             {% for meetup in meetups%}
-                {{macros.meetup_card(meta, meetup)}}
+            {{macros.item_card(meta, meta.folders.meetups, meetup)}}
             {% endfor%}
         </div>
         <div class="text-end mb-5 mb-xl-0">
@@ -92,7 +92,7 @@
         </div>
         <div class="row gx-5">
             {% for post in posts%}
-                {{macros.post_card(meta, post)}}
+            {{macros.item_card(meta, meta.folders.posts, post)}}
             {% endfor%}
         </div>
         <div class="text-end mb-5 mb-xl-0">

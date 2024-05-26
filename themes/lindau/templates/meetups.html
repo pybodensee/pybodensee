@@ -13,38 +13,10 @@
 
 
 {% block main_content %}
-<!-- Page Content-->
 <section class="py-5 bg-light">
     <div class="container px-5">
         <h1 class="fw-bolder mb-4">Next Meetup</h1>
-        <div class="card border-0 shadow rounded-3 overflow-hidden">
-            <div class="card-body p-0">
-                <div class="row gx-0">
-                    <div class="col-lg-6 col-xl-5 py-lg-5">
-                        <div class="p-4 p-md-5">
-
-                            {% for category in meetups[0].categories %}
-                            <a class="badge bg-primary bg-gradient rounded-pill mb-2"
-                                href="/{{meta.folders.categories}}/{{category|trim|lower}}/">{{category|trim|capitalize}}</a>
-                            {% endfor %}
-
-
-                            <div class="h2 fw-bolder"> {{meetups[0].title}}</div>
-                            <p>{{meetups[0].description}}</p>
-                            <a class="stretched-link text-decoration-none"
-                                href="{{meta.URL}}/{{meta.folders.meetups}}/{{meetups[0].slug}}/">
-                                Read more <i class="bi bi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-7">
-                        <div class="bg-featured-blog"
-                            style="background-image: url('{{meta.URL}}/images/{{meetups[0].feature_image}}')">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{ macros.hero_card(meta, meta.folders.meetups, meetups[0]) }}
     </div>
 </section>
 
@@ -54,7 +26,7 @@
         <h2 class="fw-bolder mb-4">Recent Meetups</h2>
         <div class="row gx-5">
             {% for meetup in meetups[1:]%}
-                {{macros.meetup_card(meta, meetup)}}
+            {{macros.item_card(meta, meta.folders.meetups, meetup)}}
             {% endfor%}
         </div>
     </div>

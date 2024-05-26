@@ -11,16 +11,12 @@
 <meta content="{{meta.URL}}/{{meta.folders.posts}}/{{post.slug}}/" property="og:url" />
 {% endblock main_header %}
 
-
 {% block main_content %}
-<!-- Page Content-->
 <section class="py-5">
     <div class="container px-5 my-5">
         <div class="row gx-5">
             <div class="col-lg-8">
-                <!-- Post content-->
                 <article>
-                    <!-- Post header-->
                     <header class="mb-4">
                         {{macros.title_bar(meta, post)}}
                     </header>
@@ -36,6 +32,16 @@
                     {{macros.contact_us_card(meta)}}
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-4">Recent Blog Posts</h2>
+        <div class="row gx-5">
+            {% for post in posts%}
+            {{macros.item_card(meta,meta.folders.posts, post)}}
+            {% endfor%}
         </div>
     </div>
 </section>

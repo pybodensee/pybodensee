@@ -4,11 +4,11 @@
 {% block main_header %}
 <meta name="description" content="{{category.description}}" />
 <meta name="author" content="{{category.author}}" />
-<link href="{{meta.URL}}/{{meta.folders.categorys}}/{{category.slug}}/" rel="canonical" />
+<link href="{{meta.URL}}/{{meta.folders.categories}}/{{category.slug}}/" rel="canonical" />
 <title>{{category.title}}</title>
 <meta content="{{category.title}}" property="og:title" />
 <meta content="{{category.description}}" property="og:description" />
-<meta content="{{meta.URL}}/{{meta.folders.categorys}}/{{category.slug}}/" property="og:url" />
+<meta content="{{meta.URL}}/{{meta.folders.categories}}/{{category.slug}}/" property="og:url" />
 {% endblock main_header %}
 
 
@@ -39,7 +39,7 @@
         <h2 class="fw-bolder mb-4">Similar Posts in {{category.title}} Category </h2>
         <div class="row gx-5">
             {% for post in posts%}
-                {{macros.post_card(meta, post)}}
+            {{macros.item_card(meta, meta.folders.posts, post)}}
             {% endfor%}
         </div>
     </div>
