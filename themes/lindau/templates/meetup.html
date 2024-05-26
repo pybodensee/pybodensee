@@ -37,4 +37,14 @@
         </div>
     </div>
 </section>
+<section class="py-5">
+    <div class="container px-5">
+        <h2 class="fw-bolder mb-4">Recent Meetups</h2>
+        <div class="row gx-5">
+            {% for meetup in meetups%}
+            {{macros.item_card(meta,meta.folders.meetups, meetup)}}
+            {% endfor%}
+        </div>
+    </div>
+</section>
 {% endblock main_content %}
