@@ -2,6 +2,7 @@
 title: Meetup # 3 Mobile App Development in Python
 description: In Second PyBodensee Meetup we will discuss about different Static Site Genrators in Python and how to build one by yourself.
 organizer:  Faisal Shahzad
+categories: meetups
 event_datetime: 2024-07-05::19:00
 slug: meetup-3-mobile-app-development-in-python
 feature_image: fatureimage.png

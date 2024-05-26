@@ -24,5 +24,17 @@
         "to": "/",
         "status_code": 404,
         "force": true
+    },
+    {
+        "from": "/how-to-start-programming-with-python/",
+        "to": "/posts/how-to-start-programming-with-python/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/develop-helpful-projects-with-python/",
+        "to": "/posts/develop-helpful-projects-with-python/",
+        "status_code": 301,
+        "force": true
     }
 ]

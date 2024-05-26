@@ -7,8 +7,6 @@ status: published
 feature_image: lindau.png
 description: Privacy
 ---
-# Privacy Policy
-
 ## Who we are
 
 Our website address is: https://pybodensee.com. You can reach us ``pybodensee at gmail.com``
