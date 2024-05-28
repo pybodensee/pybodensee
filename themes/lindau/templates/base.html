@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-auto footer">
                     {% for key,value in meta.menu.footer.items()%}
-                    <a class="link-light" href="{{meta.URL}}/{{value}}/">{{key}}</a>
+                    <a class="link-light" href="{{meta.URL}}/{{meta.folders.pages}}/{{value}}/">{{key}}</a>
 
                     <span class="text-white mx-1">{{ "&middot;" if not loop.last else "" }}</span>
                     {% endfor %}
@@ -103,8 +103,8 @@
     <div id="cb-cookie-banner" class="alert bg-dark text-white text-center mb-0" role="alert">
         We and our selected third parties use cookies 🍪 or similar technologies to ensure
         you get the best experience on our website as specified in the our <a class="text-white"
-            href="{{meta.url}}/privacy/" target="_blank">Privacy Policy</a> and <a class="text-white"
-            href="{{meta.url}}/terms/" target="_blank">Terms of
+            href="{{meta.url}}/{{meta.folders.pages}}/privacy/" target="_blank">Privacy Policy</a> and <a
+            class="text-white" href="{{meta.url}}/terms/" target="_blank">Terms of
             Services</a>. If you continue to use this site we will
         assume that you are happy with it.
         <button type="button" class="btn btn-primary btn-sm ms-3" onclick="window.cb_hideCookieBanner()">

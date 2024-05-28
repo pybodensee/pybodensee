@@ -12,7 +12,7 @@ status: done
 ### Details
 First Meetup of Python Users in Bodensee Region for the establishment of PyBodensee. All Pythonistas in the Bodensee Region are welcome to Join!
 
-We will meet at 19:00 Uhr on 15th May 2024 in Hotel Mohren Post Wangen. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/contact/).
+We will meet at 19:00 Uhr on 15th May 2024 in Hotel Mohren Post Wangen. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
 
 ## Agenda 
 
