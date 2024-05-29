@@ -18,4 +18,4 @@ Most of the content is divided into
 - Lecture Notes
 - Conference Notes
 
-Stay tuned to get yourself uptodate about beginners level content under this category. You will find similar/relevent posts in this category. 
+Stay tuned to get yourself uptodate about beginners level content under this category. You will find similar or relevent posts in this category. Feel free to explore them. 
