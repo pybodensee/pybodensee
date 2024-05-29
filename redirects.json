@@ -42,5 +42,23 @@
         "to": "/meetups/",
         "status_code": 301,
         "force": true
+    },
+    {
+        "from": "/contact/",
+        "to": "/pages/contact/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/privacy/",
+        "to": "/pages/privacy/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/terms/",
+        "to": "/pages/terms/",
+        "status_code": 301,
+        "force": true
     }
 ]
