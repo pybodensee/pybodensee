@@ -4,11 +4,11 @@
 {% block main_header %}
 <meta name="description" content="{{page.description}}" />
 <meta name="author" content="{{page.author}}" />
-<link href="{{meta.URL}}/{{page.slug}}/" rel="canonical" />
+<link href="{{meta.URL}}/{{meta.folders.pages}}/{{page.slug}}/" rel="canonical" />
 <title>{{page.title}}</title>
 <meta content="{{page.title}}" property="og:title" />
 <meta content="{{page.description}}" property="og:description" />
-<meta content="{{meta.URL}}/{{page.slug}}/" property="og:url" />
+<meta content="{{meta.URL}}/{{meta.folders.pages}}/{{page.slug}}/" property="og:url" />
 {% endblock main_header %}
 
 {% block main_content %}
