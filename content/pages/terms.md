@@ -43,7 +43,7 @@ PyBodensee may revise these Terms of Use for its Website at any time without pri
 
 ## Your Privacy
 
-Please read our <a href="/ppages/privacy/" target="_blank">Privacy Policy</a>
+Please read our <a href="/pages/privacy/" target="_blank">Privacy Policy</a>
 
 ## Governing Law
 
