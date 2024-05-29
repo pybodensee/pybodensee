@@ -16,7 +16,7 @@ description: Contact Us
     <!-- Name input-->
     <div class="form-floating mb-3">
         <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..."
-            data-sb-validations="required" />
+            data-sb-validations="required" required/>
         <label for="name">Full name</label>
         <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
         </div>
@@ -24,7 +24,7 @@ description: Contact Us
     <!-- Email address input-->
     <div class="form-floating mb-3">
         <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com"
-            data-sb-validations="required,email" />
+            data-sb-validations="required,email" required/>
         <label for="email">Email address</label>
         <div class="invalid-feedback" data-sb-feedback="email:required">An email is
             required.</div>
@@ -35,7 +35,7 @@ description: Contact Us
     <div class="form-floating mb-3">
         <textarea class="form-control" id="message" name="message" type="text"
             placeholder="Enter your message here..." style="height: 10rem"
-            data-sb-validations="required"></textarea>
+            data-sb-validations="required" required></textarea>
         <label for="message">Message</label>
         <div class="invalid-feedback" data-sb-feedback="message:required">A message is
             required.
