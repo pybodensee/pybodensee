@@ -13,7 +13,7 @@ status: published
 ## Details
 In the second PyBodensee Meetup we will discuss different static site generators in Python and how you can build one yourself.
 
-We will meet at 19:00 Uhr on 7th June 2024 in Hotel Mohren Post Wangen. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/contact/).
+We will meet at 19:00 Uhr on 7th June 2024 in Hotel Mohren Post Wangen. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
 
 ## Agenda
 

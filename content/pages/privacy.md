@@ -56,4 +56,4 @@ Visitor comments may be checked through an automated spam detection service.
 
 ## Contact Data
 
-A user may Sign Up for our Newsletter with possibility to unsubscribe any time. You can also contact us using [contact Us form](/contact/). We try to reply them at our earliest. 
+A user may Sign Up for our Newsletter with possibility to unsubscribe any time. You can also contact us using [contact Us form](/pages/contact/). We try to reply them at our earliest. 

@@ -14,7 +14,7 @@ status: planning
 ## Details
 In the thrid PyBodensee Meetup we will different approaches for Mobile App Development in Python and how you can build one yourself.
 
-We will meet at 19:00 Uhr on 05th July 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/contact/).
+We will meet at 19:00 Uhr on 05th July 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
 
 ## Agenda
 
