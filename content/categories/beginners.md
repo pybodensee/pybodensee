@@ -10,12 +10,6 @@ description: Beginners Category
 
 This category contains content which might be of interest for beginner Python Users.
 
-Most of the content is divided into
+Stay tuned to get yourself up to date about beginners level content under this category.
 
-- Blog Tutorials
-- Short Notes
-- Video Tutorials
-- Lecture Notes
-- Conference Notes
-
-Stay tuned to get yourself uptodate about beginners level content under this category. You will find similar or relevent posts in this category. Feel free to explore them. 
+You will find similar or relevant posts in this category. Feel free to explore them. If you want to contribute to these notes, then please [contact us](/pages/contact/) with your suggestions.

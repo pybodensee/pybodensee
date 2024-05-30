@@ -1,15 +1,13 @@
 ---
 title: Collaborative Python Learning
-create_date:  2024-05-22::00:00
-author:  Faisal Shahzad
+create_date: 2024-05-22::00:00
+author: Faisal Shahzad
 status: published
-categories: beginners
+categories: beginners, notes
 banner: incomplete
 feature_image: fatureimage.png
-description: Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
+description: Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code.
 ---
-
-
 Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
 
 ### Join Other Python Learners

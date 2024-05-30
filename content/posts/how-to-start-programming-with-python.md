@@ -1,10 +1,10 @@
 ---
 title: How to Start Programming With Python
 create_date: 2024-05-22::00:00
-author:  Faisal Shahzad
+author: Faisal Shahzad
 slug: how-to-start-programming-with-python
 status: published
-categories: beginners
+categories: beginners, notes
 banner: incomplete
 feature_image: fatureimage.png
 description: If you are starting with Python Programming Language, then the following are some of the tips that can help you to become fluent in Python.
