@@ -1,6 +1,6 @@
 ---
 title: Important Dunder Functions in Python
-create_date: 2024-06-02::00:00
+create_date: 2024-05-30::00:00
 author: Faisal Shahzad
 status: draft
 categories: beginners, tutorials

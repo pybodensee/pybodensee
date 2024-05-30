@@ -148,10 +148,11 @@
   },
   "active": "cfe0a57bfd67ca2b",
   "lastOpenFiles": [
-    "posts/how-to-start-programming-with-python.md",
-    "posts/develop-helpful-projects-with-python.md",
-    "posts/collaborative-python-learning.md",
     "posts/best-resources-to-learn-python.md",
+    "posts/collaborative-python-learning.md",
+    "posts/develop-helpful-projects-with-python.md",
+    "posts/important-dunder-methods-python.md",
+    "posts/how-to-start-programming-with-python.md",
     "pages/privacy.md",
     "meetups/meetup-2.md",
     "pages/terms.md",
@@ -160,7 +161,6 @@
     "meetups/meetup-1.md",
     "categories/beginners.md",
     "categories/Tutorials.md",
-    "categories/notes.md",
-    "posts/important-dunder-methods-python.md"
+    "categories/notes.md"
   ]
 }
