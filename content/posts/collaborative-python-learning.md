@@ -10,22 +10,31 @@ description: Another aspect of learning and improving your Python code quality 
 ---
 Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
 
-### Join Other Python Learners
+### Join Fellow Python Learners
 
 This is a piece of great advice for those who are starting. If you are beginning your Python learning journey then it is recommended to surround yourself with other people who are also new to learning Python. 
 
 This approach is very effective and has proved to work in most cases as humans learn well in groups e.g. in Bootcamps, Universities, and Schools. 
 
-### Teach What You Learn
+### Explain What have You Learn
 
-Teaching is another great activity for improving your already learned concepts. This might not work well for everyone but is very useful for those who are naturally gifted with teaching skills.
+Explaining to a group of like minded people is another way of improving your python and brining it to the next level.  
 
-### Pair Programming
+Explaining include teaching to a group of people, giving presentations or an invited talks. In each case, you will be required to stand in front of audience and explain what you have learned. 
+
+Teaching is by far the most productive and great activity for improving your already learned concepts. These approaches might not work well for everyone but is very useful for those who are naturally gifted with teaching skills.
+
+### Start Pair Programming
 
 Another collaborative learning technique is Pair Programming in which more than one people work together to solve a programming task. If you are a beginner and a new learner you will have massive improvements in your programming skills. 
 
 You would be able to learn from the coding style and problem-solving approach of your peers. If done effectively everyone will be able to raise their programming standards and get benefit from others. 
 
+### Join Python User Groups
+
+You can also visit nearby Python User Groups where fellow Pythonista's share their learning and professional experiences. These groups are available around the world and we are also one such. If you are in Bodensee region (**Lake Constance**) then feel free to contact us and join our next monthly meetup to broader your Python horizons.
+
+You can also check the list of Python Users group on the official Python Page or check the upcoming Python User Groups events on Meetups.com.
 
 ### Contribute to Open-source Projects
 

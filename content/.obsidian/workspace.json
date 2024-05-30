@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/important-dunder-methods-python.md",
+                "file": "posts/collaborative-python-learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/important-dunder-methods-python.md",
+                "file": "posts/collaborative-python-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/important-dunder-methods-python.md",
+                "file": "posts/collaborative-python-learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/important-dunder-methods-python.md"
+                "file": "posts/collaborative-python-learning.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "cfe0a57bfd67ca2b",
   "lastOpenFiles": [
-    "posts/best-resources-to-learn-python.md",
-    "posts/collaborative-python-learning.md",
-    "posts/develop-helpful-projects-with-python.md",
     "posts/important-dunder-methods-python.md",
     "posts/how-to-start-programming-with-python.md",
+    "posts/develop-helpful-projects-with-python.md",
+    "posts/collaborative-python-learning.md",
+    "posts/best-resources-to-learn-python.md",
     "pages/privacy.md",
     "meetups/meetup-2.md",
     "pages/terms.md",
