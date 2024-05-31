@@ -1,9 +1,7 @@
 {% macro title_bar(meta, article, message="") -%}
 <h1 class="fw-bolder mb-1">{{message}} {{article.title}}</h1>
 {% if article.create_date %}
-<div class="text-muted fst-italic mt-2">Published on {{article.create_date.strftime('%Y-%m-%d')}} by {{meta.author}}</div>
-<div class="text-muted fst-italic mt-2">Last Modified {{article.last_modified.strftime('%Y-%m-%d')}}
-</div>
+<div class="text-muted fst-italic mt-2">Last Modified {{article.last_modified.strftime('%Y-%m-%d')}} by {{meta.author}}</div>
 {% for category in article.categories %}
 <a class="badge bg-secondary text-decoration-none link-light mt-3"
     href="{{meta.URL}}/{{meta.folders.categories}}/{{category|trim|lower}}/">{{category|trim|capitalize}}</a>
