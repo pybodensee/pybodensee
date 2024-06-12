@@ -14,6 +14,30 @@
         "force": true
     },
     {
+        "from": "/meetup/meetup-2-static-website-genrators-in-python/",
+        "to": "/meetups/meetup-2-static-website-genrators-in-python/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/meetup/meetup-1-establishment-of-pybodensee-user-group/",
+        "to": "/meetups/meetup-1-establishment-of-pybodensee-user-group/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/meetups/thrid-meetup/",
+        "to": "/meetups/meetup-3-python-code-organization/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/meetups/meetup-3-mobile-app-development-in-python/",
+        "to": "/meetups/meetup-3-python-code-organization/",
+        "status_code": 301,
+        "force": true
+    },
+    {
         "from": "/meetups/first-meetup/",
         "to": "/meetups/meetup-1-establishment-of-pybodensee-user-group/",
         "status_code": 301,
@@ -34,6 +58,18 @@
     {
         "from": "/develop-helpful-projects-with-python/",
         "to": "/posts/develop-helpful-projects-with-python/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/collaborative-python-learning/",
+        "to": "/posts/collaborative-python-learning/",
+        "status_code": 301,
+        "force": true
+    },
+    {
+        "from": "/best-resources-to-learn-python-programming-language/",
+        "to": "/posts/best-resources-to-learn-python-programming-language/",
         "status_code": 301,
         "force": true
     },

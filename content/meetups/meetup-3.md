@@ -1,27 +1,37 @@
 ---
-title: Meetup # 3 Mobile App Development in Python
-description: In Second PyBodensee Meetup we will discuss about different Static Site Genrators in Python and how to build one by yourself.
+title: Meetup # 3 How to Organize Python Code
+description: In third PyBodensee Meetup we will discuss about different approaches to organize Python code, create modules, packages and executables.
 organizer:  Faisal Shahzad
 categories: meetups
-event_datetime: 2024-07-05::19:00
-slug: meetup-3-mobile-app-development-in-python
+event_datetime: 2024-06-28::19:00
+slug: meetup-3-python-code-organization
 feature_image: fatureimage.png
 address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
-add_to_sitemap: false
-status: planning
+add_to_sitemap: true
+status: published
 ---
 
 ## Details
-In the thrid PyBodensee Meetup we will different approaches for Mobile App Development in Python and how you can build one yourself.
+In third PyBodensee Meetup we will discuss about different approaches to organize Python code, create modules, packages and executables.
 
-We will meet at 19:00 Uhr on 05th July 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
+We will meet at 19:00 Uhr on 28th June 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
 
 ## Agenda
 
 The agenda for this meeting is as follows. 
 
 - Welcome
-- State of Mobile App Development?
+- Python Code Orgainzation
+    - How to Write Scripts?
+    - How to Write Module?
+    - How to Write Packages?
+    - Python Imports Dellima
+    - How to write Code documentation?
+    - Writing Unit Tests
+    - How to Share Your Code with Others?
+        - Create executables from Python Code (e.g. `exe` or `deb` Packages)
+        - Publish to PyPi or Conda
+        - Publishing as Intranet Package 
 - Conclusion
 - Dinner
 
