@@ -5,7 +5,7 @@ organizer:  Faisal Shahzad
 categories: meetups
 event_datetime: 2024-06-28::19:00
 slug: meetup-3-python-code-organization
-feature_image: fatureimage.png
+feature_image: wangen.png
 address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
 add_to_sitemap: true
 status: published
