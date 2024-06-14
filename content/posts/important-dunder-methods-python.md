@@ -19,4 +19,6 @@ Following are the most common but extremely useful dunder functions.
 
 ### ``__repr__``
 
+### ``__str__``
+
 ### ``__getitem__``
