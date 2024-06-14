@@ -6,7 +6,3 @@ Sitemap: https://pybodensee.com/sitemap-meetups.xml
 Sitemap: https://pybodensee.com/sitemap-pages.xml
 Sitemap: https://pybodensee.com/sitemap-posts.xml
 Sitemap: https://pybodensee.com/sitemap-categories.xml
-Sitemap: pages
-Sitemap: posts
-Sitemap: meetups
-Sitemap: categories
