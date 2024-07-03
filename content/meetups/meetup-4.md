@@ -1,32 +1,30 @@
 ---
 title: Meetup # 3 How to Organize Python Code
-description: In third PyBodensee Meetup we will discuss about different approaches to organize Python code, and how to choose a python Package for your projects.
+description: In third PyBodensee Meetup we will discuss about sharing your Python Code with others.
 organizer:  Faisal Shahzad
 categories: meetups
-event_datetime: 2024-07-02::19:00
-slug: meetup-3-python-code-organization
+event_datetime: 2024-08-01::19:00
+slug: meetup-4-python-code-sharing
 feature_image: wangen.png
-address: Ristorante Pizzeria Piazza, Pfannerstraße 58, 88239 Wangen im Allgäu, Germany
+address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
 add_to_sitemap: true
 status: published
 ---
 
 ## Details
-In third PyBodensee Meetup we will discuss about different approaches to organize Python code, and how to choose a python Package for inclusion/use in your projects.
+In next PyBodensee Meetup we will discuss about different approaches to share your Python code as scripts, packages and/or executables.
 
-We will meet at 19:00 Uhr on 02 July 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
+We will meet at 19:00 Uhr on 01 August 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
 
 ## Agenda
 
 The agenda for this meeting is as follows. 
 
 - Welcome
-- Python Code Orgainzation
-    - How to Write Scripts?
-    - How to Write Module?
-    - How to Write Packages?
-    - Python Imports Dellima
-- How to Choose a Python Package?
+- How to Share Your Code with Others?
+    - Create executables from Python Code (e.g. `exe` or `deb` Packages)
+    - Publish to PyPi or Conda
+    - Publishing as Intranet Package 
 - Conclusion
 - Dinner
 
