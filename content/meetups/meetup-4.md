@@ -1,12 +1,12 @@
 ---
-title: Meetup # 3 How to Organize Python Code
-description: In third PyBodensee Meetup we will discuss about sharing your Python Code with others.
+title: Meetup # 4 How to Publish Your Python Code
+description: In 4th PyBodensee Meetup we will discuss about sharing your Python Code with others.
 organizer:  Faisal Shahzad
 categories: meetups
 event_datetime: 2024-08-01::19:00
 slug: meetup-4-python-code-sharing
 feature_image: wangen.png
-address: Hotel Mohrenpost Wangen GmbH, Herrenstraße 27, 88239 Wangen im Allgaeu, Germany
+address: Ristorante Pizzeria Piazza, Pfannerstraße 58, 88239 Wangen im Allgäu, Germany
 add_to_sitemap: true
 status: published
 ---
