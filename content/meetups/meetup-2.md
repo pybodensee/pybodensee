@@ -1,5 +1,5 @@
 ---
-title: Meetup # 2 Static Website Genrators in Python
+title: Meetup # 2 Static Website Generators in Python
 description: In Second PyBodensee Meetup we will discuss about different Static Website Genrators in Python and how to build one by yourself.
 organizer:  Faisal Shahzad
 categories: meetups

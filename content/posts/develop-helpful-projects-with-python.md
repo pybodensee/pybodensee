@@ -20,4 +20,10 @@ Here, the KISS (Keep It Simple Stupid) principle will be your best friend. W
 ## Keep it Maintainable
 Unmaintainable software dies very soon, hence you should make sure that your software code is readable and extendable (in case someone to fix a bug to modify it as per their need in the future.)
 
+# Keep it Scalable
 
+After you have gained some experience with Python and started developing interesting and cool projects, it is highly recommended to design your projects carefully. An important aspect that is neglected by newbie is the scalability of their project. 
+
+Take a close look at the dependencies of your project. As a newbie, it is easy to just ``pip install foolibrary`` and start working. However, things can go wrong if you have not analyzed the ``foolibrary`` beforehand, because it may not be scalable, have many bugs, or is already abundant.
+
+If these scenarios occur, then your project may not work in certain installations and you may have to restart. 

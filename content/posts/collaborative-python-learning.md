@@ -16,6 +16,8 @@ This is a piece of great advice for those who are starting. If you are beginnin
 
 This approach is very effective and has proved to work in most cases as humans learn well in groups e.g. in Bootcamps, Universities, and Schools. 
 
+The monthly Python community meetups are free events around the world. You can attend these events and meet other Pythonistas to learn, network and expand your Python horizons. If you are in the Lake Constance (Bodensee) region, then you are welcome to join our monthly <a href="/meetups/" target="_blank">PyBodensee meetups</a>. Whether you are a beginner, intermediate or expert in Python, everyone is welcome.
+
 ### Explain What have You Learn
 
 Explaining to a group of like minded people is another way of improving your python and brining it to the next level.  

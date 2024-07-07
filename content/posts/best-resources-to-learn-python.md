@@ -30,6 +30,7 @@ If you are stuck in any situation and need help regarding your Python Problems�
 Generative AI aka. ChatGPT could be also your good friend. Although large language models (LLMs) are improving day by day but care must be taken when taking learning advice from them. They might spit out some wrong advice and/or breakable code. 
 
 Since ChatGPT is the least recommended source for beginners ChatGPT spits out some code that might/might not work out at first instance and you might spend more time fixing it out rather than solving your original problem.
+
 ### Automate the Boring Stuff
 
 If you are learning Python to automate any of your daily task then look no further than the book "How to automate the boring stuff by Al Sweigart". You can also look into relevant website ``https://automatetheboringstuff.com/``
