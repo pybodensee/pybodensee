@@ -3,22 +3,22 @@
     
 	<sitemap>
         <loc>https://pybodensee.com/sitemap-pages.xml</loc>
-        <lastmod>2024-07-08T22:09+00:00</lastmod>
+        <lastmod>2024-07-08T22:33+00:00</lastmod>
 	</sitemap>
     
 	<sitemap>
         <loc>https://pybodensee.com/sitemap-posts.xml</loc>
-        <lastmod>2024-07-08T22:09+00:00</lastmod>
+        <lastmod>2024-07-08T22:33+00:00</lastmod>
 	</sitemap>
     
 	<sitemap>
         <loc>https://pybodensee.com/sitemap-meetups.xml</loc>
-        <lastmod>2024-07-08T22:09+00:00</lastmod>
+        <lastmod>2024-07-08T22:33+00:00</lastmod>
 	</sitemap>
     
 	<sitemap>
         <loc>https://pybodensee.com/sitemap-categories.xml</loc>
-        <lastmod>2024-07-08T22:09+00:00</lastmod>
+        <lastmod>2024-07-08T22:33+00:00</lastmod>
 	</sitemap>
     
 </sitemapindex>
