@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-<meta name="description" content="Start step by step and develop a full-fledged application that will suit your needs." />
+<meta name="description" content="Doing requirement analysis before choosing a Python Package for Your Next Project is necessary and can save you a huge hassle afterward." />
 <meta name="author" content="Faisal Shahzad" />
-<link href="https://pybodensee.com/posts/develop-helpful-projects-with-python/" rel="canonical" />
-<title>Develop Helpful Projects With Python</title>
-<meta content="Develop Helpful Projects With Python" property="og:title" />
-<meta content="Start step by step and develop a full-fledged application that will suit your needs." property="og:description" />
-<meta content="https://pybodensee.com/posts/develop-helpful-projects-with-python/" property="og:url" />
+<link href="https://pybodensee.com/posts/how-to-choose-a-python-package-for-your-next-project/" rel="canonical" />
+<title>How to Choose a Python Package for Your Next Project?</title>
+<meta content="How to Choose a Python Package for Your Next Project?" property="og:title" />
+<meta content="Doing requirement analysis before choosing a Python Package for Your Next Project is necessary and can save you a huge hassle afterward." property="og:description" />
+<meta content="https://pybodensee.com/posts/how-to-choose-a-python-package-for-your-next-project/" property="og:url" />
 
     <meta content="PyBodensee" property="og:site_name" />
     <meta name="keywords" content="Python User Group, Bodensee, Python Stammtisch">
@@ -99,15 +99,15 @@
             <div class="col-lg-8">
                 <article>
                     <header class="mb-4">
-                        <h1 class="fw-bolder mb-1"> Develop Helpful Projects With Python</h1>
+                        <h1 class="fw-bolder mb-1"> How to Choose a Python Package for Your Next Project?</h1>
 
 <div class="text-muted fst-italic mt-2">Last Modified 2024-07-08 by Faisal Shahzad</div>
 
 <a class="badge bg-secondary text-decoration-none link-light mt-3"
-    href="https://pybodensee.com/categories/beginners/">Beginners</a>
+    href="https://pybodensee.com/categories/intermediate/">Intermediate</a>
 
 <a class="badge bg-secondary text-decoration-none link-light mt-3"
-    href="https://pybodensee.com/categories/notes/">Notes</a>
+    href="https://pybodensee.com/categories/tutorials/">Tutorials</a>
 
 
                     </header>
@@ -118,17 +118,82 @@
     <p>This is work in progress. Please checkback later for an updated version of this post.</p>
 </div>
 
-                        <p>In the beginning, it's perfectly fine to design a Calculator app or Todo List app. If you want to excel in your programming then it is recommended that you get out of this todo app app dilemma and develop something else. </p>
-<h2 id="keep-it-useful">Keep it Useful</h2>
-<p>Your best bet would be to take on any project from your daily life and build it yourself. Start step by step and develop a full-fledged application that will suit your needs.</p>
-<h2 id="keep-it-simple">Keep it Simple</h2>
-<p>Here, the KISS (Keep It Simple Stupid) principle will be your best friend. Write clean code in tiny but useful/reusable functions. Think of a big software project as writing a novel, make it interesting and joyful to use by others. </p>
-<h2 id="keep-it-maintainable">Keep it Maintainable</h2>
-<p>Unmaintainable software dies very soon, hence you should make sure that your software code is readable and extendable (in case someone to fix a bug to modify it as per their need in the future.)</p>
-<h1 id="keep-it-scalable">Keep it Scalable</h1>
-<p>After you have gained some experience with Python and started developing interesting and cool projects, it is highly recommended to design your projects carefully. An important aspect that is neglected by newbie is the scalability of their project. </p>
-<p>Take a close look at the dependencies of your project. As a newbie, it is easy to just <code>pip install foolibrary</code> and start working. However, things can go wrong if you have not analyzed the <code>foolibrary</code> beforehand, because it may not be scalable, have many bugs, or is already abundant.</p>
-<p>If these scenarios occur, then your project may not work in certain installations and you may have to restart. </p>
+                        <hr />
+<p>Would you include a third-party Python package in your software package or Python package without analyzing it against certain benchmarks? Have you done your requirement analysis before executing <code>pip install next-big-package</code> or included a new dependency to your <code>requirement.txt</code> file? </p>
+<p>A benchmark or a requirement analysis ensures that the Python package you choose meets certain standards or requirements to meet the future needs of your project(s).</p>
+<h2 id="requirement-analysis">Requirement Analysis</h2>
+<p>Performing a requirements analysis before selecting a Python package for your next project is necessary and can save you trouble later. When analyzing requirements, it's important to be critical and ask several questions about your project and libraries to be included in your project upfront.</p>
+<ol>
+<li>Which Python Version do you want to support?</li>
+<li>Which Operating System do you want to support?</li>
+<li>Do you need that full package or a small subset?</li>
+<li>Do you need a pure Python implementation or a wrapper around another package?</li>
+<li>Are you developing commercial or open-source applications?</li>
+<li>With which license you are going to distribute the new package?</li>
+</ol>
+<h2 id="wangener-benchmark-version-10-beta">Wangener Benchmark (Version 1.0-Beta)</h2>
+<p>Our discussion during the <a href="/meetups/meetup-3-python-code-organization/">3rd PyBodensee Meetup</a> on 02.07.2024 in Wangen im Allgäu, Germany, ended with the following points to consider before choosing a 3rd party Python package for your application. We call this approach the <strong>Wangen Benchmark</strong>, and it consists of the following.</p>
+<p>This benchmark is bidirectional i.e. At each step it will check not only the package you want to include in your app but also your own app against it.</p>
+<h3 id="1-applicability">1. Applicability</h3>
+<p>Software and/or app <strong>applicability</strong> is an important factor for deciding the dependencies for a software project. Adding any 3rd party packages to your software will add some restrictions such as</p>
+<ul>
+<li>You can only distribute software under certain licenses.</li>
+<li>You can only include certain features.</li>
+<li>You need to buy an additional license for included packages.</li>
+<li>You have to open-source your software.</li>
+<li>Many others</li>
+</ul>
+<p>To avoid any such restriction, you need to ask yourself some questions. </p>
+<p><strong>Do you need it for personal/internal company use or do you want to distribute it?</strong></p>
+<p>If you need that 3rd party package for personal or internal business use then you do not need to disclose the source code of your app. For this case, adding additional libraries does not impose restrictions on you.  </p>
+<p><strong>Do you want to distribute it as an Open-source or closed-source application?</strong></p>
+<p>If you want to distribute a compiled version of your application, then the license of a 3rd party library can encourage you to adopt a certain license. A good example is Python libraries for QT Framework i.e. PyQt and PySide. PySide allows you to sell a compiled version of your application without adding additional restrictions. However, if you use PyQt, then you need to distribute your source code with a GPL3 license. </p>
+<p><strong>Is your project a pure Python application or includes remnants from Rust, C++, etc?</strong></p>
+<p>If a 3rd party Python Package includes code from RUST, C, C++, or any other programming language then you can face additional restrictions on the distribution of your application. You might also have to compile those remnants by yourself. </p>
+<p>If you include a compiled version of those libraries, then you need to make sure that it is compatible with different hardware architectures e.g. if you need to distribute your app., action for Atom, ARM, or X86 platforms.</p>
+<p><strong>Do you want to include a 3rd Party library as your dependency?</strong>
+In some use cases, 3rd part Python packages are included as submodules. This approach is used for such packages where long-term support is required (e.g. PyQtgraph) or in restricted environments where installing additional Python packages might not be possible/allowed (e.g. Ubuntu Touch is readable OS and restricts additional Python package installations). </p>
+<p>Including a Python package as a submodule can put some restrictions since you will be distributing their code under your license. If you have incompatible licensing issues, then it is recommended to use the <code>requirements.txt</code> file.</p>
+<h3 id="2-versatility">2. Versatility</h3>
+<p>The versatility of a 3rd party package is also very important. How many of your tasks can be done with a single library. Can you avoid installing multiple libraries instead of a single Python library?</p>
+<p>If you are using only a small function is required which you can look into the source code of the repo and copy it there (please follow the license of that library). You do not need to make a dependency on a full library. </p>
+<h3 id="3-availability">3. Availability</h3>
+<p>Is this new third-party package available on multiple channels e.g. PyPi, Conda? If not then how you will keep including this package for future releases. 
+Also ask yourself, how do you want to distribute your own package or softer? Is it close source or do you want to make it open source and distribute via Conda and Pip or your own download server?</p>
+<h3 id="4-scalability">4. Scalability</h3>
+<p>Do you want to scale up your app? Is this package suitable for scaling? 
+Eg. If you are crawling online resources and your software or 3rd party package can crawl sinuously. The thesis is one example but maybe you want to process images at scale and PIL/Pillow might not scale up with your requirements. Will it be possible to switch to Opencv?
+How difficult it would be to replace the package. Think about PyQt and PySide projects. It's generally not difficult to replace one with another whereas PIL to OpenCV would be problematic.</p>
+<h3 id="5-popularity">5. Popularity</h3>
+<p>You can look into code repositories e.g. on GitHub or GitLab and check their reputation. Pay attention to the following.</p>
+<ul>
+<li>How old is this repository?</li>
+<li>Is it a man's show?</li>
+<li>Look into PyPi download statistics for usage statistics.</li>
+<li>Who is maintaining</li>
+<li>Country of origin. Is it from OpenSource friendly country e.g. Germany?</li>
+<li>Is it a university project (PhD Project or a long-term project)</li>
+<li>Is there any company behind this project and where are they based (EU or US Company)</li>
+</ul>
+<p>Answers to the above questions should help you identify if the library is popular enough to be used in your project. Try to use those libraries that have a long maintenance history, and originate from Open Source friendly parts of the world. </p>
+<h3 id="6-stability">6. Stability</h3>
+<p>If stability is highly important for your application, then look into the following.</p>
+<ul>
+<li>Performance benchmarks and how good are the results</li>
+<li>What is the release cycle of this library?`</li>
+<li>What is a bug-fix approach? How long does a bug stay open?</li>
+<li>How is support working</li>
+</ul>
+<p>Mature projects don't have a monthly release cycle. they might release the software over a yearly cycle. </p>
+<h3 id="7-dependability">7. Dependability</h3>
+<p>Make sure that the Python package you are going to include in your app does not have any unwanted further dependencies. This can bloat your own package and other people might avoid your software at all.</p>
+<p>Be careful when a project is supported by a VC-funded startup. If the VC fund pulls the breaks then those software might get abounded as well. A good example is synergy. GitHub is full of such packages VC leaves the company in between because this software was burning money and it was not possible to get profit out of it.</p>
+<p>If your app has a dependency on any other third-party package then you will need a compile the version of the library to work properly e.g. installation opencv numpy, or scipy on Linux, Windows, and Arm64 will require different wheel files when you want to deploy your system to any subsystem.</p>
+<p>Code scanning, for serious apps, makes sure that the package code base is not doing any suspicious things. Read the code, look into tests, and test against your own examples if you find anything suspicious. </p>
+<p>This becomes more critical if the package includes any dlls or executables making it hard to debug. Python packages e.g. Numpy or Scipy also include compiled versions of their packages with complete source code available and are generally safe to use.</p>
+<p>However, any new library or relatively less popular library should be taken with a grain of salt. </p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Becoming dependent on some random package can be a long-term problem. Make sure you conduct proper requirements analysis before depending on a package because once your application starts maturing and delivering, it becomes difficult to drop or get rid of a dependency, and you want to avoid that situation.</p>
                     </section>
                 </article>
             </div>
@@ -141,10 +206,18 @@
         <div class="fw-bold mt-2">
             <div class="toc">
 <ul>
-<li><a href="#keep-it-useful">Keep it Useful</a></li>
-<li><a href="#keep-it-simple">Keep it Simple</a></li>
-<li><a href="#keep-it-maintainable">Keep it Maintainable</a></li>
-<li><a href="#keep-it-scalable">Keep it Scalable</a></li>
+<li><a href="#requirement-analysis">Requirement Analysis</a></li>
+<li><a href="#wangener-benchmark-version-10-beta">Wangener Benchmark (Version 1.0-Beta)</a><ul>
+<li><a href="#1-applicability">1. Applicability</a></li>
+<li><a href="#2-versatility">2. Versatility</a></li>
+<li><a href="#3-availability">3. Availability</a></li>
+<li><a href="#4-scalability">4. Scalability</a></li>
+<li><a href="#5-popularity">5. Popularity</a></li>
+<li><a href="#6-stability">6. Stability</a></li>
+<li><a href="#7-dependability">7. Dependability</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 </div>
 
