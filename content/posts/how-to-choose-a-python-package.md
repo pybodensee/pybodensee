@@ -19,12 +19,12 @@ A benchmark or a requirement analysis ensures that the Python package you choose
 
 Performing a requirements analysis before selecting a Python package for your next project is necessary and can save you trouble later. When analyzing requirements, it's important to be critical and ask several questions about your project and libraries to be included in your project upfront.
 
-1. Which Python Version do you want to support?
-2. Which Operating System do you want to support?
-3. Do you need that full package or a small subset?
-4. Do you need a pure Python implementation or a wrapper around another package?
-5. Are you developing commercial or open-source applications?
-6. With which license you are going to distribute the new package?
+- Which Python Version do you want to support?
+- Which Operating System do you want to support?
+- Do you need that full package or a small subset?
+- Do you need a pure Python implementation or a wrapper around another package?
+- Are you developing commercial or open-source applications?
+- With which license you are going to distribute the new package?
 
 
 ## Wangener Benchmark (Version 1.0-Beta)
