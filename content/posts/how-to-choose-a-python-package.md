@@ -27,7 +27,7 @@ Performing a requirements analysis before selecting a Python package for your ne
 - With which license you are going to distribute the new package?
 
 
-## Wangener Benchmark (Version 1.0-Beta)
+## Wangener Benchmark
 
 Our discussion during the [3rd PyBodensee Meetup](/meetups/meetup-3-python-code-organization/) on 02.07.2024 in Wangen im Allgäu, Germany, ended with the following points to consider before choosing a 3rd party Python package for your application. We call this approach the **Wangen Benchmark**, and it consists of the following.
 
