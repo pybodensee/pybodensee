@@ -12,6 +12,8 @@ description: If you are starting with Python Programming Language, then the fo
 
 If you are starting with Python Programming Language, then the following are some of the tips that can help you to become fluent in Python. 
 
+These notes were taken during the [First meetup](/meetups/meetup-1-establishment-of-pybodensee-user-group/) of PyBodensee on 15th May 2024.
+
 ## Stick to your Learning Plan!
 
 Most people starting with any new adventure e.g. learning a Programming language will give up too soon. When it comes to learning new programming languages it usually boils down to either not having proper learning or not following a plan for long enough. You should do the following to learn and get better in Python.

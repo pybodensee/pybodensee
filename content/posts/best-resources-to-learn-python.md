@@ -9,7 +9,9 @@ feature_image: fatureimage.png
 description: Following are my top four resources to learn Python, and can highly recommend them to someone starting up with Python.
 ---
 
-Following are my top four resources to learn Python, and can highly recommend them to someone starting up with Python.
+Following are my top four resources to learn Python, and can highly recommend them to someone starting up with Python. 
+
+These notes were taken during the [First meetup](/meetups/meetup-1-establishment-of-pybodensee-user-group/) of PyBodensee on 15th May 2024.
 
 If you are stuck in any situation and need help regarding your Python Problems then the following are the best places to look for help.
 

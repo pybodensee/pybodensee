@@ -9,7 +9,7 @@ feature_image: fatureimage.png
 description: Start step by step and develop a full-fledged application that will suit your needs.
 ---
 
-In the beginning, it's perfectly fine to design a Calculator app or Todo List app. If you want to excel in your programming then it is recommended that you get out of this todo app app dilemma and develop something else. 
+In the beginning, it's perfectly fine to design a Calculator app or Todo List app. If you want to excel in your programming then it is recommended that you get out of this todo app app dilemma and develop something else. These notes were taken during the [First meetup](/meetups/meetup-1-establishment-of-pybodensee-user-group/) of PyBodensee on 15th May 2024.
 
 ## Keep it Useful
 Your best bet would be to take on any project from your daily life and build it yourself. Start step by step and develop a full-fledged application that will suit your needs.

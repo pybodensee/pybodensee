@@ -8,7 +8,9 @@ banner: incomplete
 feature_image: fatureimage.png
 description: Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code.
 ---
-Another aspect of learning and improving your Python code quality is to use a collaborative approach. Following are some of the techniques to improve your code. 
+Another aspect of learning and improving your Python code quality is to use a collaborative approach. 
+
+These notes were taken during the [Second meetup](/meetups/meetup-2-static-website-generators-in-python/) of PyBodensee on 7th June 2024. Following are some of the techniques to improve your code. 
 
 ### Join Fellow Python Learners
 

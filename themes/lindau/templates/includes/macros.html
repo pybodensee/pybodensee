@@ -31,23 +31,23 @@
 {%- endmacro %}
 
 {% macro hero_card(meta, folder, active_item) -%}
-<div class="card border-0 shadow rounded-3 overflow-hidden">
-    <div class="card-body p-0">
+<div class="card border-0 overflow-hidden">
+    <div class="card-body bg-dark p-0">
         <div class="row gx-0">
-            <div class="col-lg-6 col-xl-5 py-lg-5">
-                <div class="p-4 p-md-5">
+            <div class="py-lg-5 col-lg-6 col-xl-6">
+                <div class="p-2">
                     {% for category in active_item.categories %}
                     <a class="badge bg-primary bg-gradient rounded-pill mb-2"
                         href="/{{meta.folders.categories}}/{{category|trim|lower}}/">{{category|trim|capitalize}}</a>
                     {% endfor %}
-                    <div class="h2 fw-bolder"> {{active_item.title}}</div>
-                    <p>{{active_item.description}}</p>
+                    <div class="h2 fw-bolder text-white mt-5"> {{active_item.title}}</div>
+                    <p class="text-white-50 mt-5">{{active_item.description}}</p>
                     <a class="stretched-link text-decoration-none" href="{{meta.URL}}/{{folder}}/{{active_item.slug}}/">
                         Read more <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-6 col-xl-7">
+            <div class="col-lg-6 col-xl-6">
                 <div class="bg-featured-blog"
                     style="background-image: url('{{meta.URL}}/{{meta.folders.images}}/{{active_item.feature_image}}')">
                 </div>

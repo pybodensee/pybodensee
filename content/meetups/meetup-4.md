@@ -26,7 +26,7 @@ The agenda for this meeting is as follows.
     - Publish to PyPi or Conda
     - Publishing as Intranet Package 
 - Conclusion
-- Dinner
+- Food (We are looking for sponsors. Until then, everyone will have to bear the costs themselves.)
 
 ## About
 
