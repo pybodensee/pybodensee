@@ -4,7 +4,7 @@ create_date:  2024-05-13::00:00
 author:  Faisal Shahzad
 slug:  contact
 status: published
-feature_image: lindau.png
+feature_image: contact.png
 description: Contact Us
 ---
 <!-- Contact form-->

@@ -97,7 +97,7 @@
 {%- endmacro %}
 
 {% macro meetup_organizer_card(meta, meetup) -%}
-<div class="d-flex align-items-center mt-lg-4 mb-4">
+<div class="d-flex bg-light align-items-center mb-4 p-4">
     <img class="img-fluid rounded-circle" src="{{meta.URL}}/static/assets/author.png" width="60" height="60"
         alt="{{meta.author}} Image" />
     <div class="ms-3">
@@ -131,8 +131,8 @@
 {%- endmacro %}
 
 {% macro toc_card(post) -%}
-{% if post.slug != "contact" %}
-<div class="card border-0 bg-light mt-xl-3">
+{% if post.toc %}
+<div class="card border-0 bg-light">
     <div class="card-body p-4 py-lg-4">
         <div class="h5 fw-bolder px-2">Table of Contents</div>
         <div class="fw-bold mt-2">

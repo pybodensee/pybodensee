@@ -4,7 +4,7 @@ create_date:  2024-05-13::00:00
 author:  Faisal Shahzad
 slug:  privacy
 status: published
-feature_image: lindau.png
+feature_image: privacy.png
 description: Privacy
 ---
 ## Who we are

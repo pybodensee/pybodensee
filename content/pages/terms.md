@@ -4,11 +4,14 @@ create_date:  2024-05-13::00:00
 author:  Faisal Shahzad
 slug:  terms
 status: published
-feature_image: lindau.png
+feature_image: terms.png
 description: Terms and Conditions
 ---
 
 By accessing this Website, accessible from https://pybodensee.com, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trademark law.
+
+For all of our meetups follow the PSF's code of conduct for the event: <a href="https://www.python.org/psf/conduct" target="_blank">python.org/psf/conduct</a>
+
 
 ## Use License
 

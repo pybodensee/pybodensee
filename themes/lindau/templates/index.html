@@ -20,13 +20,12 @@
                 <div class="my-5 text-center text-xl-start">
                     <h1 class="display-5 fw-bolder text-white mb-2">{{meta.title}}
                     </h1>
-                    <p class="text-white-50 mb-4"> Our next meetup is in <em class="text-white mb-4">Wangen im
-                            Allgäu</em> on
-                        <em class="text-white mb-4"> {{meetups[0].event_datetime}}</em>.
-                    </p>
                     <p class="text-white-50 mb-4">
-                        Drop us an email at <em class="text-white mb-4">{{meta.email}}</em>
-                        if you plan to join. This will help to better organize the event.
+                        We are actively looking for new members, speakers, hosts to grow across different parts of Bodensee Region.
+                    </p>
+                    <p class="text-white-50 mb-4"> Our next meetup is in <em class="text-white mb-4">Ristorante Pizzeria Piazza, Wangen im
+                            Allgäu</em> on <em class="text-white mb-4"> {{meetups[0].event_datetime}}</em>. Drop us an email at <em class="text-white mb-4">{{meta.email}}</em>
+                            if you plan to join or get in touch.
                     </p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                         <a class="btn btn-primary btn-lg px-4 me-sm-3"
@@ -41,20 +40,6 @@
         </div>
     </div>
 </header>
-<section class="py-5" id="about">
-    <div class="container px-5 my-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0"
-                    src="{{meta.URL}}/static/assets/about.png" alt="{{meta.author}} image"></div>
-            <div class="col-lg-6">
-                <h2>About Us</h2>
-                {% for about_us_paragraph in about_us_paragraphs%}
-                <p>{{about_us_paragraph}}</p>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="py-5 bg-light" id="meetups">
     <div class="container px-5 my-5">

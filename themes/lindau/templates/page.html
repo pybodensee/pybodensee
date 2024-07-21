@@ -12,21 +12,36 @@
 {% endblock main_header %}
 
 {% block main_content %}
-<section class="py-5">
+<!-- Header-->
+<header class="bg-dark" id="home">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start">
+                    <h1 class="display-5 fw-bolder text-white mb-2">{{page.title}}
+                    </h1>
+                    <p class="text-white-50 mb-4">
+                        Last Update on {{page.last_modified.strftime('%Y-%m-%d')}} by {{meta.author}}
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
+                    src="{{meta.URL}}/static/assets/{{page.feature_image}}" alt="{{meta.name}} about us banner" /></div>
+        </div>
+    </div>
+</header>
+<section class="py-0">
     <div class="container px-5 my-5">
         <div class="row gx-5">
             <div class="col-lg-8">
                 <article>
-                    <header class="mb-4">
-                        {{macros.title_bar(meta, page)}}
-                    </header>
                     <section class="mb-5">
                         {{ page.content }}
                     </section>
                 </article>
             </div>
             <div class="col-lg-4">
-                <div class="py-2 sidebar">
+                <div class="sidebar">
                     {{macros.toc_card(page)}}
                     {{macros.contact_us_card(meta)}}
                 </div>

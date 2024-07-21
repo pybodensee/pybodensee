@@ -2,10 +2,16 @@
 /favicon.ico	/static/assets/favicon.png	301
 /favicon.icon	/static/assets/favicon.png	301
 /meetups/meetup-1-establishment-of-pybodensee/	/meetups/meetup-1-establishment-of-pybodensee-user-group/	301
+/meetup/meetup-2-static-website-genrators-in-python/	/meetups/meetup-2-static-website-genrators-in-python/	301
+/meetup/meetup-1-establishment-of-pybodensee-user-group/	/meetups/meetup-1-establishment-of-pybodensee-user-group/	301
+/meetups/thrid-meetup/	/meetups/meetup-3-python-code-organization/	301
+/meetups/meetup-3-mobile-app-development-in-python/	/meetups/meetup-3-python-code-organization/	301
 /meetups/first-meetup/	/meetups/meetup-1-establishment-of-pybodensee-user-group/	301
 /.well-known/assetlinks.json	/	404
 /how-to-start-programming-with-python/	/posts/how-to-start-programming-with-python/	301
 /develop-helpful-projects-with-python/	/posts/develop-helpful-projects-with-python/	301
+/collaborative-python-learning/	/posts/collaborative-python-learning/	301
+/best-resources-to-learn-python-programming-language/	/posts/best-resources-to-learn-python-programming-language/	301
 /categories/meetups/	/meetups/	301
 /contact/	/pages/contact/	301
 /privacy/	/pages/privacy/	301
