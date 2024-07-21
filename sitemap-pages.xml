@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://pybodensee.com/pages/contact/</loc>
-        <lastmod>2024-07-18T20:35+00:00</lastmod>
+        <loc>/pages/about-us/</loc>
+        <lastmod>2024-07-21T17:58+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://pybodensee.com/pages/terms/</loc>
-        <lastmod>2024-07-18T20:35+00:00</lastmod>
+        <loc>/pages/contact/</loc>
+        <lastmod>2024-07-21T17:58+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://pybodensee.com/pages/privacy/</loc>
-        <lastmod>2024-07-18T20:35+00:00</lastmod>
+        <loc>/pages/terms/</loc>
+        <lastmod>2024-07-21T17:58+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>/pages/privacy/</loc>
+        <lastmod>2024-07-21T17:58+00:00</lastmod>
     </url>
     
 </urlset>

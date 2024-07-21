@@ -2,7 +2,11 @@ User-agent: *
 
 
 Sitemap: https://pybodensee.com/sitemap-pages.xml
-Sitemap: https://pybodensee.com/sitemap-meetups.xml
 Sitemap: https://pybodensee.com/sitemap-index.xml
-Sitemap: https://pybodensee.com/sitemap-posts.xml
+Sitemap: https://pybodensee.com/sitemap-meetups.xml
 Sitemap: https://pybodensee.com/sitemap-categories.xml
+Sitemap: /sitemap-pages.xml
+Sitemap: /sitemap-posts.xml
+Sitemap: /sitemap-meetups.xml
+Sitemap: https://pybodensee.com/sitemap-posts.xml
+Sitemap: /sitemap-categories.xml
