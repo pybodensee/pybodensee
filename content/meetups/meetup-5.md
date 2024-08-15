@@ -14,7 +14,9 @@ status: published
 ## Details
 In next (5th) PyBodensee Meetup we will dive deep into the topics around functional programming in Python and how Python decorators work.
 
-We will meet at 18:00 Uhr on 07 October 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/) if you want to join. 
+We will meet at 18:00 Uhr on 07 October 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/) if you want to join. You can also RSVP on our[ meetup page](https://www.meetup.com/pybodensee/).
+
+We follow the PSF's code of conduct for the event: python.org/psf/conduct
 
 ## Agenda
 

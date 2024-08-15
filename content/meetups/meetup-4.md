@@ -14,7 +14,10 @@ status: published
 ## Details
 In next PyBodensee Meetup we will discuss about different approaches to share your Python code as scripts, packages and/or executables.
 
-We will meet at 19:00 Uhr on 01 August 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/).
+We will meet at 19:00 Uhr on 01 August 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/). You can also RSVP on our[ meetup page](https://www.meetup.com/pybodensee/).
+
+We follow the PSF's code of conduct for the event: python.org/psf/conduct
+
 
 ## Agenda
 
