@@ -14,7 +14,7 @@ Welcome to PyBodensee, a local community of dedicated Python Users in the Bodens
 ## Team
 
 - Faisal Shahzad
-- You (if this sond motivating then <a href="/pages/privacy/" target="_blank">contact us</a>)
+- You (if this sound motivating then <a href="/pages/contact/" target="_blank">contact us</a>)
 
 
 ## What to Expect?
