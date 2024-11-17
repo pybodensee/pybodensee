@@ -12,7 +12,7 @@ status: published
 ---
 
 ## Details
-In next (6th) PyBodensee Meetup we will discuss about Graphical User Interface development using Python. We will have an overview of differnt technologies e.g. Qt, Tkinter, Kivy and others.
+In next (6th) PyBodensee Meetup we will discuss about Graphical User Interface development using Python. We will have an overview of different technologies e.g. Qt, Tkinter, Kivy and others.
 
 We will meet at 18:00 Uhr on 10 December 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/) if you want to join. You can also RSVP on our[ meetup page](https://www.meetup.com/pybodensee/).
 
