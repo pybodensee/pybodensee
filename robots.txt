@@ -3,6 +3,6 @@ User-agent: *
 
 Sitemap: https://pybodensee.com/sitemap-meetups.xml
 Sitemap: https://pybodensee.com/sitemap-categories.xml
-Sitemap: https://pybodensee.com/sitemap-pages.xml
 Sitemap: https://pybodensee.com/sitemap-posts.xml
 Sitemap: https://pybodensee.com/sitemap-index.xml
+Sitemap: https://pybodensee.com/sitemap-pages.xml
