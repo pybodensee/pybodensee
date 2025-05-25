@@ -3,7 +3,7 @@ title: Meetup # 7 Python Potentials
 description: In 7th PyBodensee Meetup we will discuss about Python Potential.
 organizer:  Faisal Shahzad
 categories: meetups
-event_datetime: 2025-05-27::18:00
+event_datetime: 2025-06-03::18:00
 slug: meetup-7-python-meetup
 feature_image: wangen.png
 address: Ristorante Pizzeria Piazza, Pfannerstraße 58, 88239 Wangen im Allgäu, Germany
@@ -14,7 +14,7 @@ status: published
 ## Details
 In next (7th) PyBodensee Meetup we will discuss general things about Python and get to know eachother (New members). You are welcome to bring your own questions.
 
-We will meet at 18:00 Uhr on 10 December 2024. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/) if you want to join. You can also RSVP on our[ meetup page](https://www.meetup.com/pybodensee/).
+We will meet at 18:00 Uhr on Tuesday, 03 June 2025. Please drop an email at ``pybodensee at gmail dot com`` or via [Contact Us form](/pages/contact/) if you want to join. You can also RSVP on our[ meetup page](https://www.meetup.com/pybodensee/).
 
 We follow the PSF's code of conduct for the event: python.org/psf/conduct
 
